@@ -1,3 +1,4 @@
+print("Olá, Seja Bem vindo(a)!")
 num= int(input("Digite um número:"))
 
 if num > 0 and num % 2 == 0:

@@ -35,7 +35,6 @@ while pag !=0:
          os.system("clear")
     pag= int (input("Escolha a forma de pagamento(1/2/3/0):"))
 
-    #  print("Opção invalida!")
     
     
 

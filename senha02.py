@@ -14,6 +14,7 @@ while (usuario != "aluno" and senha != "12345") and quant <2:
 if quant ==2:
 
     print("Você tentou 3 vezes")
+
 else:
     print("Acesso liberado")
 

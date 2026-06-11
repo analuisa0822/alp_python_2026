@@ -3,12 +3,12 @@ soma = 0
 nomebarato = ""
 menorpreco = 0
 
-for prec in range(5):
+for cont in range(5):
     nome = input("Digite o nome do medicamentos:")
     preco = float(input("Digite o preço do medicamento:"))
 
-    soma = soma + preco 
-    if prec == 0:
+    soma += preco 
+    if cont == 0:
         nomebarato = nome
         menorpreco = preco
 

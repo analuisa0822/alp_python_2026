@@ -10,7 +10,7 @@ for i in range(quantidade):
     usuarios[login] = senha
 
 # Login
-usuario_login = input("\nUsuário: ")
+usuario_login = input("Usuário: ")
 senha_login = input("Senha: ")
 
 if usuario_login in usuarios:

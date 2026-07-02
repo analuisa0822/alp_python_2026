@@ -1,0 +1,13 @@
+numero = int(input("Digite um número inteiro positivo (0 para sair): "))
+
+while numero != 0:
+    fatorial = 1
+
+    for i in range(numero, 0, -1):
+        fatorial = fatorial * i
+
+    print("O fatorial de", numero, "é", fatorial)
+
+    numero = int(input("Digite outro número (0 para sair): "))
+
+print("Programa encerrado.")
